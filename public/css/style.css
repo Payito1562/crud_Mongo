@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url('lightning.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Los otros estilos permanecen sin cambios */
+.fondoDelete {
+    background-color: #fcf8f8;
+}
+
+.fondoDelete1 {
+    background-color: rgb(245, 237, 237);
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 15%;
+}
+
+.nuevo {
+    background: hsla(0, 4%, 95%, 0.438);
+    border-radius: 5px;
+}
